@@ -1,0 +1,23 @@
+<ul *ngIf="info">
+  <li *ngFor="let inf of info.articles">
+<div class="card mb-3 newsalign" >  <!--*ngIf="inf.source.id"-->
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img [src]="inf.urlToImage" class="card-img" alt="newsimage">
+      
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{inf.title}}</h5>
+        <p class="card-text">{{inf.description}}</p>
+        <a [href]="inf.url" class="card-text text-primary" style="text-align:right;margin-bottom:10px;" target="parent"><small class="text-primary">View full coverage</small></a>
+        
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+</li>
+
+</ul>

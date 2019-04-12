@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+ul li img{
+    border-radius: 10%;
+     width:60%;
+     margin: 15px;
+
+}
+.newsalign{
+
+    margin:4%;
+    
+}
